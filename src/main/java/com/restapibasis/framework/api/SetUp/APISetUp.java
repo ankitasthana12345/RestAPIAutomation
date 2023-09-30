@@ -18,7 +18,7 @@ import java.lang.reflect.Method;
 
 public class APISetUp {
 	public static ConfigProperty configProperty;
-	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir")+"/src/test/resources/testData/TestData.xlsx");
+	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir")+"/src/test/resources/testData/TestData_1.xlsx");
     public static ExtentReports extentReports;
 	public static ThreadLocal<ExtentTest> classLevellog = new ThreadLocal<ExtentTest>();
 	public static ThreadLocal<ExtentTest> testLevellog = new ThreadLocal<ExtentTest>();
